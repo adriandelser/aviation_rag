@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "aviation-rag"
+version = "0.1.0"
+description = ""
+authors = ["Adrian del Ser <adrian.delser@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.32.3"
+pymupdf = "^1.24.9"
+tqdm = "^4.66.5"
+mlx-embedding-models = "^0.0.9"
+pandas = "^2.2.2"
+mlx-lm = "^0.17.0"
+mlx = "^0.17.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
